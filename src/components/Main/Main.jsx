@@ -21,9 +21,9 @@ function Main() {
         <main className='flex flex-col gap-6'>
             <div className='container flex justify-between'>
                 <div className="buttons flex gap-x-2.5">
-                    <button onClick={() => setFilter("all")} className='btn-group'>Barchasi</button>
-                    <button onClick={() => setFilter("active")} className='btn-group'>Faol</button>
-                    <button onClick={() => setFilter("complieted")} className='btn-group'>Bajarilgan</button>
+                    <button onClick={() => setFilter("all")} className={`btn-group ${filter === "all" ? "active-btn" : ""}` }>Barchasi</button>
+                    <button onClick={() => setFilter("active")} className={`btn-group ${filter === "active" ? "active-btn" : ""}`}>Faol</button>
+                    <button onClick={() => setFilter("complieted")} className={`btn-group ${filter === "complieted" ? "active-btn" : ""}`}>Bajarilgan</button>
                 </div>
                 <p>Qolgan : {todos.length || 0} <span></span></p>
             </div>
