@@ -48,7 +48,7 @@ function Header() {
                     <button onClick={(e) => addTodo(e)} id='addButton' className='btn-group'>Qo'shish</button>
                 </div>
                 <div className="search-box flex h-14 items-center w-1/3 relative">
-                    <input onChange={(e) => setSearchInput(e.target.value)} value={searchInput} id='searchInput' type="text" placeholder='"Qidirish uchun nomini kiriting ...'/>
+                    <input onChange={(e) => setSearchInput(e.target.value)} value={searchInput} id='searchInput' type="text" placeholder='Qidirish uchun nomini kiriting ...'/>
                 </div>
             </div>
         </header>

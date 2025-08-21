@@ -60,6 +60,4 @@ input[type="checkbox"]:checked {
     @apply !bg-black !text-white inline-block absolute z-10 right-[3px] h-[80%]
 }
 
-#serachButton{
-    @apply  !bg-black !text-white inline-block absolute z-10 right-[3px] h-[80%]
-}
+
